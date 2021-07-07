@@ -4,3 +4,13 @@ First, stress and displacement analysis is done on the bridge. According to the 
 Second, user chooses between the options on whether it will be an elementwise operation or a two node optimization operation.
 After that, the optimization is done by checking the structure if it has a better score than before. In the node operation, if the lenght between the nodes should be longer to get a higher score, then the nodes are elongated. In the element operation, if the structure has a higher score when an element is removed, then that element is removed.
 As an alternative option, there is an optimize all button. This button goes over all the nodes with respect to each other, and adjusts the lenght in between to get the highest score.
+### Features
+- Option to remove an element or a node from the structure
+- Save figures button to save the figures as a .png file
+- Element optimization button
+- Node optimization button
+- Optimize all button
+- Various color bar options
+- Magnitude bar to observe the changes easily
+- Option to observe the Stiffness, stress and displacement tables
+- Option to read a structure from an excel file
